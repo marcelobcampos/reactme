@@ -1,13 +1,12 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
-import FileData from './components/filedata'
-import ReadJson from './components/readjson'
+// import FileData from './components/filedata'
+import Quiz from './components/quiz'
 
 const App = () => {
     return <div>
         <h2>React me!</h2>
-        <FileData />
-        <ReadJson />
+        <Quiz />
     </div>
 }
 
