@@ -1,6 +1,5 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
-import Myscene from './components/myscene'
 import FileData from './components/filedata'
 import ReadJson from './components/readjson'
 
