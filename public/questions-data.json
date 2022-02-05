@@ -2,6 +2,8 @@
   {
     "id": 1,
     "question": "Quelle est la forme géométrique du soleil?",
+    "options": [ 'carre', 'cercle', 'triangle'],
+    "answer": 'cercle',
     "answers": [
       {
         "id": 1,
@@ -23,6 +25,8 @@
   {
     "id": 2,
     "question": "Quelle est la couleur du soleil?",
+    "options": [ 'orange', 'rouge', 'bleu'],
+    "answer": 'orange',
     "answers": [
       {
         "id": 1,
