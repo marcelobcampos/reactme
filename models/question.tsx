@@ -2,7 +2,8 @@ export interface Question {
   id: number;
   question: string;
   options: string[];
-  answers: Answer[];
+  selectedAnswer: string;
+  correctAnswer: string;
 }
 
 export interface Answer {
