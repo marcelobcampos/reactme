@@ -2,43 +2,15 @@
   {
     "id": 1,
     "question": "Quelle est la forme géométrique du soleil?",
-    "answers": [
-      {
-        "id": 1,
-        "text": "carre",
-        "value": false
-      },
-      {
-        "id": 2,
-        "text": "cercle",
-        "value": false
-      },
-      {
-        "id": 3,
-        "text": "tringle",
-        "value": false
-      }
-    ]
+    "options": [ 'carre', 'cercle', 'triangle'],
+    "selectedAnswer": '',
+    "correctAnswer": 'cercle'
   },
   {
     "id": 2,
-    "question": "Quelle est la couleur du soleil?",
-    "answers": [
-      {
-        "id": 1,
-        "text": "orange",
-        "value": false
-      },
-      {
-        "id": 2,
-        "text": "rouge",
-        "value": false
-      },
-      {
-        "id": 3,
-        "text": "bleu",
-        "value": false
-      }
-    ]
+    "question": "Quelle est la couleur du soleil",
+    "options": ['orange', 'rouge', 'vert'],
+    "selectedAnswer": '',
+    "correctAnswer": 'orange'
   }
 ]
