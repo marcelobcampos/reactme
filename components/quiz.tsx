@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { useState, useEffect } from "react";
-import Question from './models/question';
+import { Question } from '../models/question';
 import raw from './../public/questions-data.json'
 
 const Quiz = () => {
-  const [questionData, setQuestionData] = useState<Questions[]>([]);
-  const [value, setValue] = useState(false);
+  const [questionData, setQuestionData] = useState<Question[]>([]);
+  //const [value, setValue] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [result, setResult] = useState<string[]>([]);
 
@@ -14,17 +14,14 @@ const Quiz = () => {
   const loadQuestions = () => {
     const data = loadData().map((item: Question[]) => {
       return item
-    };
+    });
+
     setResult([]);
     setQuestionData(data);
   }
 
-  const handleChange = (event):void => {
-    setValue(!value);
-  }
-
   const onFormSubmit = () => {
-    setResult('');
+    setResult([]);
     const results: string[] = [];
 
     for (let q of questionData) {
@@ -42,20 +39,14 @@ const Quiz = () => {
   interface QuestionFormProps {
     callingParent: (question: Question) => void;
   }
+
   const QuestionForm = (props: QuestionFormProps) => {
     const { callingParent } = props;
+    const [selected, setSelected] = useState('');
 
-    const [selected, setSelected] = useState(false);
-
-    const isRadioSelected = (value: string):boolean => {
-      return selected === value;
-    }
-
-    const handleRadioChange = (e: ChangeEvent<HTMLInputElement>, question: Question):void => {
+    const handleRadioChange = (e: React.ChangeEvent<HTMLInputElement>, question: Question):void => {
       setSelected(e.currentTarget.value);
-
       question.selectedAnswer = e.currentTarget.value;
-      // call parent to update model
     }
 
     return (
