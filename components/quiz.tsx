@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
+import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Question } from '../models/question';
 import raw from './../public/questions-data.json'
@@ -81,7 +82,7 @@ const Quiz = () => {
 
   return (
     <div>
-      <h3>Questionnaire</h3>
+      <Typography variant="h5">Questionnaire</Typography>
       <Button
         variant="outlined"
         color="success"
