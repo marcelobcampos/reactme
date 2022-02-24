@@ -1,11 +1,12 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
+import Typography from '@mui/material/Typography'
 // import FileData from './components/filedata'
 import Quiz from './components/quiz'
 
 const App = () => {
     return <div>
-        <h2>React me!</h2>
+        <Typography variant="h3" gutterBottom component="div">React me!</Typography>
         <Quiz />
     </div>
 }

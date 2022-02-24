@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { useState, useEffect } from "react";
+import Button from '@mui/material/Button';
 import { Question } from '../models/question';
 import raw from './../public/questions-data.json'
 
@@ -73,7 +74,7 @@ const Quiz = () => {
             </li>
           )}
         </ul>
-        <button type="submit">Submit</button>
+        <Button variant="contained" color="success" type="submit">Submit</Button>
       </form>
     )
   };
@@ -81,7 +82,12 @@ const Quiz = () => {
   return (
     <div>
       <h3>Questionnaire</h3>
-      <button onClick={() => loadQuestions()}>Load Questions</button>
+      <Button
+        variant="outlined"
+        color="success"
+        onClick={() => loadQuestions()}>
+          Load Questions
+        </Button>
       <div>
         {questionData.length > 0 ? <QuestionForm callingParent={callingParent} /> : null}
       </div>
