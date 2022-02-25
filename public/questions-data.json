@@ -1,16 +1,72 @@
 [
   {
     "id": 1,
-    "question": "Quelle est la forme géométrique du soleil?",
-    "options": [ 'carre', 'cercle', 'triangle'],
+    "question": "La personne ______ est impliquée dans l'accident est mon voisin.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
     "selectedAnswer": '',
-    "correctAnswer": 'cercle'
+    "correctAnswer": 'qui'
   },
   {
     "id": 2,
-    "question": "Quelle est la couleur du soleil",
-    "options": ['orange', 'rouge', 'vert'],
+    "question": "La voiture _____ j'ai achetée dernièrement est rouge.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
     "selectedAnswer": '',
-    "correctAnswer": 'orange'
-  }
+    "correctAnswer": 'que'
+  },
+  {
+    "id": 3,
+    "question": "Le médecin pose un plâtre sur la jambe ______ Jean s'est cassée.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'que'
+  },
+  {
+    "id": 4,
+    "question": "J'ai revu la maison ______ j'ai passé mon enfance.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'où'
+  },
+  {
+    "id": 5,
+    "question": "Les personnes ______ vous parlez viennent d'entrer.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'dont'
+  },
+  {
+    "id": 6,
+    "question": "Il a plu le jour ______ nous sommes allés nous promener.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'où'
+  },
+  {
+    "id": 7,
+    "question": "J'ai trouvé l'objet ______ tu as caché sous ton lit.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'que'
+  },
+  {
+    "id": 8,
+    "question": "Ce chanteur ______ j'ai tous les albums est très connu.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'dont'
+  },
+  {
+    "id": 9,
+    "question": "Je te présente l'homme ______ je suis éprise depuis longtemps.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'dont'
+  },
+  {
+    "id": 10,
+    "question": "Les collègues ______ me forment sont très patients.",
+    "options": [ 'dont', 'où', 'que', 'qui'],
+    "selectedAnswer": '',
+    "correctAnswer": 'qui'
+  },
 ]
